@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tier Feature Admin</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <h1>Account Tier Features</h1>
+    <p>Internal operations panel. Toggle a switch to turn a feature on or off for a tier.</p>
+  </header>
+
+  <main>
+    <section class="panel" aria-labelledby="matrix-title">
+      <h2 id="matrix-title">Feature matrix</h2>
+      <div class="table-wrap">
+        <table id="matrix">
+          <thead>
+            <tr id="matrix-head"></tr>
+          </thead>
+          <tbody id="matrix-body"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="panel" aria-labelledby="log-title">
+      <div class="log-header">
+        <h2 id="log-title">Audit log</h2>
+        <span class="count" id="log-count">0 changes</span>
+      </div>
+      <ul id="audit-log" aria-live="polite" aria-relevant="additions"></ul>
+      <p id="log-empty" class="empty">No changes yet this session. Toggle a switch above to create an entry.</p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
