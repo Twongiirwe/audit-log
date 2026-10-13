@@ -4,7 +4,7 @@ An internal admin panel for operations staff to manage which banking features ar
 
 ## Video walkthrough
 
-**Code explanation (5 min):** https://REPLACE-WITH-YOUR-PUBLIC-VIDEO-URL
+**Code explanation (5 min):** https://youtu.be/THmaeTnYJIw
 
 ## Features
 
